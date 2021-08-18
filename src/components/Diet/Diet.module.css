@@ -1,0 +1,44 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 2fr);
+	height: 90vh;
+	column-gap: 5px;
+}
+
+.item {
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+
+	background-color: grey;
+	border: 2px solid black;
+
+	text-decoration: none;
+	font-weight: 700;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.item:hover {
+	color: yellow;
+}
+
+.thin {
+	background-image: url('https://im0-tub-ru.yandex.net/i?id=d3cd713ab52232e4863cd53a7caf142e-l&ref=rim&n=13&w=1080&h=1080');
+}
+
+.fat {
+	background-image: url('https://www.deccanherald.com/sites/dh/files/articleimages/2021/06/12/istock-882314790-1-996663-1623490899.jpg');
+}
+
+.jock {
+	background-image: url('https://healthgrean.com/wp-content/uploads/2020/10/Super-Foods-Diet-Plan-2.png');
+}
+
+.eat {
+	background-image: url('https://st2.depositphotos.com/4134095/8121/i/950/depositphotos_81212054-stock-photo-salad-bar-fresh-vegetables-healthy.jpg');
+}

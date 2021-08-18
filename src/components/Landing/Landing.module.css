@@ -1,0 +1,65 @@
+.header {
+	background: url('https://belnaviny.by/wp-content/uploads/2021/02/belnaviny.by-lewis-fresh-market-store-departments.jpg');
+	width: 100%;
+	height: 94vh;
+	background-size:cover;
+  	box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+}
+
+.btnsBlock {
+	height: 400px;
+	width: auto;
+	margin: 0 auto;
+	padding-top: 150px;
+	color: #fff;
+}
+
+.authBlock {
+	text-align: center;
+	margin: 100px;
+}
+
+.authBlock a {
+	padding: 20px;
+	border: 2px solid rgba(99, 245, 0, 0.87);
+	background-color: rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	color: #ccc;
+	transition: all 0.2s;
+}
+
+.authBlock a:hover {
+	border: 2px solid rgba(219, 213, 20, 0.87);
+	background-color: rgba(99, 245, 0, 0.1);
+}
+
+.continueBlock {
+	text-align: center;
+	margin: 20px;
+}
+
+.continueBlock a {
+	padding: 20px;
+	border: 2px solid rgba(99, 245, 0, 0.87);
+	background-color: rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+	color: #ccc;
+	transition: all 0.2s;
+}
+
+.continueBlock a:hover {
+	border: 2px solid rgba(219, 213, 20, 0.87);
+	background-color: rgba(99, 245, 0, 0.1);
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contentItem {
+	border: solid 2px black;
+	height: 200px;
+	width: 250px;
+	text-align: center;
+}
