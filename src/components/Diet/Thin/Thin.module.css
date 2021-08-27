@@ -1,6 +1,19 @@
-.wrapper {
-	height: 400px;
+.mainWrapper {
+	display: flex;
+	height: 100%;
 	width: 600px;
 	margin: 0 auto;
 	border: solid 2px black;
+}
+
+.productWrapper {
+	display: flex;
+}
+
+.productsBlock {
+	border: 2px solid purple;
+}
+
+.content {
+	border: 2px solid darkgreen;
 }

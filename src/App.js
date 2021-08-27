@@ -4,10 +4,10 @@ import Auth from './components/Auth/Auth';
 import Diet from './components/Diet/Diet';
 import Landing from './components/Landing/Landing';
 import Navbar from './components/Navbar/Navbar';
-import Thin from './components/Diet/Thin/Thin';
 import Fat from './components/Diet/Fat/Fat';
 import Jock from './components/Diet/Jock/Jock';
 import Eat from './components/Diet/Eat/Eat';
+import ThinContainer from "./components/Diet/Thin/ThinContainer";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
           <Route exact path='/' component={Landing} />
           <Route exact path='/diet' component={Diet} />
           <Route exact path='/auth' component={Auth} />
-          <Route path='/diet/thin' component={Thin} />
-          <Route path='/diet/fat' component={Fat} />
-          <Route path='/diet/jock' component={Jock} />
-          <Route path='/diet/eat' component={Eat} />
+          <Route exact path='/diet/thin' render={() => <ThinContainer />}/>
+          <Route exact path='/diet/fat' component={Fat} />
+          <Route exact path='/diet/jock' component={Jock} />
+          <Route exact path='/diet/eat' component={Eat} />
         </div>
       </div>
     </BrowserRouter>
